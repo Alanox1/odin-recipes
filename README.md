@@ -5,7 +5,7 @@ This is the [Project Recipes](https://www.theodinproject.com/lessons/foundations
 
 ## Demo
 
-Insert gif or link to demo
+https://alanox1.github.io/odin-recipes/
 
 
 ## PC View:
