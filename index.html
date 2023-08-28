@@ -5,13 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Odin Recipes</title>
+    
+    <style>
+        form {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 8px;
+        }
+        .name {
+            flex-grow: 1;
+            flex-basis: 120px;
+        }
+        .email {
+            flex-grow: 3;
+          flex-basis: 170px;
+        }
+        button {
+          flex-grow: 1;
+          flex-basis: 70px;
+        }
+      </style>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <h1 id="title">Odin Recipes</h1>
     <ul>
         <li><a href="./recipes/croissants.html">Croissant Recipe</a></li>
         <li><a href="./recipes/pizza.html">Pizza Recipe</a></li>
         <li><a href="./recipes/brownie.html">Brownie Recipe</a></li>
     </ul>
+
+
+      
+      <form>
+        <label class="name" for="name-field">
+          Name:
+          <input id="name-field" />
+        </label>
+        <label class="email" for="email-field">
+          Email:
+          <input id="email-field" type="email" />
+        </label>
+        <button>
+          Submit
+        </button>
+      </form>
 </body>
 </html>
